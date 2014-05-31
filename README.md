@@ -11,7 +11,9 @@ Netstat-virustotal-monitor has been tested on CentOS distribution but should wor
 
 Running
 =========
+Do not forget to add virustotal key in netstat-monitor.conf file.
+
 To run the script:
 
-netstat-virustotal-monitor --config netstat-monitor.conf
+netstat-main --config netstat-monitor.conf
 
