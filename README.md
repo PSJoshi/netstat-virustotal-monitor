@@ -11,7 +11,11 @@ Netstat-virustotal-monitor has been tested on CentOS distribution but should wor
 
 Running
 =========
-Do not forget to add virustotal key in netstat-monitor.conf file.
+1) Do not forget to add virustotal key in configuration file - netstat-monitor.conf
+2) Also, set file paths for City,Country and ASN Maxmind databases in the configuration file - netstat-monitor.conf
+	Country - http://geolite.maxmind.com/download/geoip/database/GeoLiteCountry/GeoIP.dat.gz
+	City - http://geolite.maxmind.com/download/geoip/database/GeoLiteCity.dat.gz
+	ASN - http://download.maxmind.com/download/geoip/database/asnum/GeoIPASNum.dat.gz
 
 To run the script:
 
