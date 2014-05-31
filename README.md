@@ -5,3 +5,13 @@ netstat is a de-facto command for monitoring incoming and outgoing network conne
 
 A big thanks to Giampaolo Rodola for writing psutils(http://pythonhosted.org/psutil/) and its nice API. Also thanks to Maxmind(https://www.maxmind.com/en/home), Virustotal(https://www.virustotal.com/) and DNSBL community for providing services.
 
+Installation
+==============
+Netstat-virustotal-monitor has been tested on CentOS distribution but should work on any platform without any issues.
+
+Running
+=========
+To run the script:
+
+netstat-virustotal-monitor --config netstat-monitor.conf
+
