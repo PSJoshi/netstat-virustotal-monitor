@@ -4,7 +4,7 @@ setup(
     name='netstat-virustotal-monitor',
     version=0.1,
     py_modules=['virustotal','dnsbl'],
-    install_requires=['gevent','IPy','greelet','pygeoip']
+    install_requires=['gevent','IPy','greenlet','pygeoip','argparse','ConfigParser']
     url='https://github.com/PSJoshi/netstat-virustotal-monitor',
     author='Joshi Pradyumna',
     author_email='joshi.pradyumna@gmail.com',
