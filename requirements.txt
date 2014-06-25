@@ -3,3 +3,5 @@ greenlet
 IPy
 psutil
 pygeoip
+argparse
+ConfigParser
