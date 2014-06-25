@@ -19,5 +19,5 @@ Running
 
 To run the script:
 
-netstat-main --config netstat-monitor.conf
+netstat-main.py --config ./netstat-monitor.conf
 
